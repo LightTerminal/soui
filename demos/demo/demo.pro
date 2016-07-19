@@ -47,6 +47,7 @@ HEADERS += MainDlg.h \
            ../../controls.extend/sradiobox2.h \
            ../../controls.extend/SChromeTabCtrl.h \
            ../../controls.extend/siectrl.h \
+           ../../controls.extend/SDocHostUIHandler.h \
            ../../controls.extend/schatedit.h \
            ../../controls.extend/reole/richeditole.h \
            ../../controls.extend/reole/dataobject.h \
@@ -64,6 +65,7 @@ HEADERS += MainDlg.h \
            smatrixwindow.h \
            memflash.h \
            setskinwnd.h \
+           threadObject.h \
            SmileyCreateHook.h \
 		   uianimation/uianimation.h \
 		   uianimation/uianimationwnd.h\
@@ -90,6 +92,7 @@ SOURCES += demo.cpp \
            ../../controls.extend/sradiobox2.cpp \
            ../../controls.extend/SChromeTabCtrl.cpp \
            ../../controls.extend/siectrl.cpp \
+           ../../controls.extend/SDocHostUIHandler.cpp \
            ../../controls.extend/schatedit.cpp \
            ../../controls.extend/reole/richeditole.cpp \
            ../../controls.extend/reole/dataobject.cpp \
@@ -105,6 +108,7 @@ SOURCES += demo.cpp \
            memflash.cpp	\
            smatrixwindow.cpp \
            setskinwnd.cpp \
+           threadObject.cpp \
            SmileyCreateHook.cpp \
 		   uianimation/uianimationwnd.cpp \
 		   appledock/sdesktopdock.cpp \
